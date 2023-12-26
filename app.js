@@ -4,6 +4,8 @@ import cors from "cors";
 import db from "./database/db.js";
 // importando enrutador de usuarios
 import userRoutes from "./routes/routesUsers.js";
+// importando enrutador de jobs
+import jobsRoutes from "./routes/routesJobs.js";
 
 const app = express();
 
@@ -14,6 +16,7 @@ app.use(express.json());
 // Configurando enrutador para users
 app.use('/user', userRoutes);
 // Configurando enrutador para jobs
+app.use('/jobs', jobsRoutes);
 
 try {
     await db.authenticate();
