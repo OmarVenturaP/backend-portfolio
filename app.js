@@ -6,6 +6,8 @@ import db from "./database/db.js";
 import userRoutes from "./routes/routesUsers.js";
 // importando enrutador de jobs
 import jobsRoutes from "./routes/routesJobs.js";
+// importando enrutador de skills
+import skillRoutes from "./routes/routesSkills.js";
 
 const app = express();
 
@@ -17,6 +19,8 @@ app.use(express.json());
 app.use('/user', userRoutes);
 // Configurando enrutador para jobs
 app.use('/jobs', jobsRoutes);
+// Configurando enrutador para los skills
+app.use('/skills', skillRoutes);
 
 try {
     await db.authenticate();
