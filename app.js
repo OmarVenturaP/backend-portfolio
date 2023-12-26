@@ -8,6 +8,8 @@ import userRoutes from "./routes/routesUsers.js";
 import jobsRoutes from "./routes/routesJobs.js";
 // importando enrutador de skills
 import skillRoutes from "./routes/routesSkills.js";
+// importando enrutador de proyectos
+import projectRoutes from "./routes/routesProjects.js"
 
 const app = express();
 
@@ -21,6 +23,8 @@ app.use('/user', userRoutes);
 app.use('/jobs', jobsRoutes);
 // Configurando enrutador para los skills
 app.use('/skills', skillRoutes);
+// Configurando enrutador para los proyectos
+app.use('/projects', projectRoutes)
 
 try {
     await db.authenticate();
