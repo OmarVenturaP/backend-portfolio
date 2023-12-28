@@ -84,10 +84,10 @@ graph TD;
 
 | Request | Link | Response |
 |---|---|---|
-| `https://backend-portfolio-u7k6.onrender.com/user` | <a href="https://backend-portfolio-u7k6.onrender.com/user" target="_blank"> `Usuarios`</a> | Se obtiene la lista de los Usuarios |
-| `https://backend-portfolio-u7k6.onrender.com/jobs` | <a href="https://backend-portfolio-u7k6.onrender.com/jobs" target="_blank"> `Experiencia`</a> | Se obtiene la lista de la Experiencia |
-| `https://backend-portfolio-u7k6.onrender.com/skills` | <a href="https://backend-portfolio-u7k6.onrender.com/skills" target="_blank"> `Skills`</a> | Se obtiene la lista de las Skills |
-| `https://backend-portfolio-u7k6.onrender.com/projects` | <a href="https://backend-portfolio-u7k6.onrender.com/projects" target="_blank"> `Proyectos`</a> | Se obtiene la lista de los Proyectos |
+| `https://puce-famous-dolphin.cyclic.app/user` | <a href="https://puce-famous-dolphin.cyclic.app/user" target="_blank"> `Usuarios`</a> | Se obtiene la lista de los Usuarios |
+| `https://puce-famous-dolphin.cyclic.app/jobs` | <a href="https://puce-famous-dolphin.cyclic.app/jobs" target="_blank"> `Experiencia`</a> | Se obtiene la lista de la Experiencia |
+| `https://puce-famous-dolphin.cyclic.app/skills` | <a href="https://puce-famous-dolphin.cyclic.app/skills" target="_blank"> `Skills`</a> | Se obtiene la lista de las Skills |
+| `https://puce-famous-dolphin.cyclic.app/projects` | <a href="https://puce-famous-dolphin.cyclic.app/projects" target="_blank"> `Proyectos`</a> | Se obtiene la lista de los Proyectos |
 
 ## Como clonar Repo y correrlo de manera local<a name="id11"></a>
 * Primero debes ubicarte en la página principal del repositorio <a href="https://github.com/OmarVenturaP/backend-portfolio">BackendPortfolio</a>.
