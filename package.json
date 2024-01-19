@@ -2,14 +2,14 @@
   "name": "back-app-restaurant",
   "version": "1.0.0",
   "engines": {
-    "node": ">=16.14.2"
+    "node": "18.x"
   },
   "description": "1. [Requerimentos](#id1)\r 2. [Creación del proyecto](#id2)\r 3. [Dependencias usadas crear el proyecto](#id3)\r 4. [Estructura de directorio de App](#id4)\r 5. [Carpetas `app`](#id5)\r 6. [Diseño de todos los componentes de la app](#id8)\r 7. [Archivo app.js y funcionalidad](#id9)\r 8. [Como clonar Repo y correrlo de manera local](#id11)",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "node index.js"
   },
   "keywords": [
     "node",
